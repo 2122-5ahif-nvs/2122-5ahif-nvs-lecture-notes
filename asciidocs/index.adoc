@@ -1,0 +1,191 @@
+= Lecture Notes 5ahif - SYP 21/22
+T.Stütz
+1.0.0, 2021-09-23: Lecture Notes for SYP
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// https://fontawesome.com/v4.7.0/icons/
+//icon:file-text-o[link=https://raw.githubusercontent.com/htl-leonding-college/asciidoctor-docker-template/master/asciidocs/{docname}.adoc] ‏ ‏ ‎
+//icon:github-square[link=https://github.com/htl-leonding-college/asciidoctor-docker-template] ‏ ‏ ‎
+//icon:home[link=https://htl-leonding.github.io/]
+endif::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+== 2021-09-24
+
+=== microservices vs monolith
+
+
+
+////
+|===
+|Thema |Gliederung
+
+|Ausgangssituation / Istzustand
+.5+|Was war (Was mache ich; warum mache ich)
+
+|Problemstellung
+
+|Ziel -> Leistungswirkung
+
+|Aufgabenstellung (Was gab es bereits)
+
+|Ergebnis -> Leistung
+
+|Wie weit sind wir?
+.2+|Was ist
+
+|Was funktioniert schon?
+
+|Was sind die nächsten Schritte?
+.2+|Was wird sein
+
+|Meilensteine für Projekt
+
+|===
+
+
+
+
+====
+Vereinbarung:
+
+Es werden keine Tests durchgeführt. Leistungsbewertung durch:
+
+* mündliche Gespräche
+* schriftliche LZK
+* Projekte
+* Referate!
+====
+
+
+
+== 2020-09-28
+
+.ToDo
+|===
+|Wer |Was |Bis wann? |erledigt?
+
+|Stütz
+|Liste der Referatsthemen
+|5. Okt. 2020
+|icon:uncheck[]
+
+|Stütz
+|Referatstermine festlegen
+|5. Okt. 2020
+|icon:uncheck[]
+
+|Stütz
+|RevealJs Repo zur Verfügung stellen
+|5. Okt. 2020
+|icon:uncheck[]
+
+|===
+
+== 2020-10-13
+C.Eisserer
+
+=== Observer-Pattern
+
+Theorie: Separation of concerns, loose coupling.
+dependency inversion principle kurz erwähnt.
+
+Anhand einer einfachen Quarkus-Anwendung mit 2 Schnittstellentypen (WebSocket, Rest) und einem Service.
+
+.Aufgabe
+Die beiden Schnittstellen über Änderungen des Service informieren, ohne zueinander Abhängigkeiten zu entwickeln
+
+
+== 2020-10-20
+
+=== GIT-Wiederholung
+
+[source,bash]
+----
+git restore --source=HEAD <file(s)> #<.>
+git restore --source=HEAD~1 <file(s)> #<.>
+----
+
+<.> Restore des Files vom letzten Commit
+<.> Restore des Files vom vorletzten Commit
+
+== 2020-11-10
+
+=== Wiederholung Git
+
+* Branching
+* Stashing
+
+=== Projektbesprechungen
+
+* CAMeleon
+* Beeyond
+* Leonie chatbot
+
+== 2020-11-16
+
+=== Wiederholung Git
+
+==== Merges
+
+* Fast-forward merges
+* 3-way merges
+
+Film bis exclusive "9-Three way merges"
+
+== 2020-11-17
+
+* bis inklusive "11-Merge Conflicts"
+
+* nächstes Mal Deployment mit Jib ins Minikube
+
+== 2020-11-17
+C.Eisserer
+
+=== Chain-of-Responsibility-Pattern
+
+Beispiel labs/quarkus-cor
+
+Theorie anhand einer manuellen Implementierung, siehe Package at.ac.htlleonding.chainofresp
+Praktische Anwendung anhand von jax-rs ContainerRequestFilter, siehe at.ac.htlleonding.filter
+
+== 2020-12-01
+
+* bis exkl. "12 - Graphical Merge Tool"
+
+* Übung
+** Ansehen von https://www.youtube.com/watch?v=jEN3D9EN7ss[Branches Commit Pull Request Merge in IntelliJ IDEA and GitHub: Example with Code, window="_blank"]
+** Erstellen und dokumentieren (mit Screenshots) eines three-Way-Merges mit IntelliJ-Unterstützung
+** Erstellen und dokumentieren des Erstellungsprozesses und des Ergebnisses von JavaDoc
+*** recherchieren Sie die möglichen Tags ZB @Author
+*** mit Code-Beispielen enthalten
+*** Auf Paket-, Klassen- und Methodenebene
+*** Ist es möglich (UML-)Images in einem JavaDoc-Dokument zu integrieren. Wie?
+* https://stackoverflow.com/questions/22095487/why-is-package-info-java-useful[Why is package-info.java useful?, window="_blank"]
+* Abgabe im Classroom: https://classroom.github.com/a/c51t1nvF
+
+
+* Tipp von Prof. Aberger
+** https://stackoverflow.com/questions/13857638/global-custom-exception-handler-in-resteasy[Global custom exception handler in resteasy]
+
+* Batch-Processing
+** Abwicklung von long-running jobs
+** https://www.oracle.com/technical-resources/articles/java/batch-processing-ee-7.html[An Overview of Batch Processing in Java EE 7.0, window="_blank"]
+** https://github.com/quarkusio/quarkus/issues/1505[Batch-processing ist derzeit in Quarkus noch nicht implementiert]
+
+
+////
+
+
+
+
