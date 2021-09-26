@@ -22,8 +22,24 @@ endif::backend-html5[]
 
 == 2021-09-24
 
+=== Microprofile vs. Microservice
+
+image:microprofile_4_1.png[]
+
+=== JSR
+
+* https://jakarta.ee/specifications/[Jakarta specifications]
+
+* https://download.eclipse.org/microprofile/microprofile-3.3/microprofile-spec-3.3.html[Microprofile Specifications]
+
+
+* https://jakarta.ee/specifications/restful-ws/3.0/jakarta-restful-ws-spec-3.0.html[Specification: Jakarta RESTful Web Services, window="_blank"]
+
 === microservices vs monolith
 
+image:microservices-vs-monolith.png[]
+
+=== Beginn Microservice Tutorial
 
 
 ////
