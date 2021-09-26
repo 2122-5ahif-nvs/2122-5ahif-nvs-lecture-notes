@@ -22,7 +22,9 @@ endif::backend-html5[]
 
 == 2021-09-24
 
-=== Microprofile vs. Microservice
+=== JakartaEE vs. Microprofile
+
+image:jakartaee-vs-microprofile.png[]
 
 image:microprofile_4_1.png[]
 
