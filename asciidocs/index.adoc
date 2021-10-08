@@ -26,13 +26,14 @@ endif::backend-html5[]
 
 image:jakartaee-vs-microprofile.png[]
 
+.https://microprofile.io/[microprofile, window="_blank"]
 image:microprofile_4_1.png[]
 
 === JSR
 
-* https://jakarta.ee/specifications/[Jakarta specifications]
+* https://jakarta.ee/specifications/[Jakarta specifications, window="_blank"]
 
-* https://download.eclipse.org/microprofile/microprofile-3.3/microprofile-spec-3.3.html[Microprofile Specifications]
+* https://download.eclipse.org/microprofile/microprofile-3.3/microprofile-spec-3.3.html[Microprofile Specifications, window="_blank"]
 
 
 * https://jakarta.ee/specifications/restful-ws/3.0/jakarta-restful-ws-spec-3.0.html[Specification: Jakarta RESTful Web Services, window="_blank"]
@@ -42,6 +43,29 @@ image:microprofile_4_1.png[]
 image:microservices-vs-monolith.png[]
 
 === Beginn Microservice Tutorial
+
+== 2021-10-01
+
+* Begonnen mit microprofile
+* Übung
+** Erstellen eines Mikroprojekts mit dem Thema des 4. Jahrganges
+** Erstellen eines Asciidoc-ORdners
+
+== 2021-10-04
+
+* tw. ausgefallen
+
+== 2021-10-08
+
+* Weiter mit microprofile-tutorial
+* "Develop the Number microservice"
+
+* https://stackoverflow.com/a/32443004[LocalDateTime vs Instant, window="_blank"]
+
+* BookEndpoint wurde erstellt; die openAPI-Annottionen wurden noch nicht eingetragen
+
+
+
 
 
 ////
