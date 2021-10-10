@@ -49,7 +49,7 @@ image:microservices-vs-monolith.png[]
 * Begonnen mit microprofile
 * Übung
 ** Erstellen eines Mikroprojekts mit dem Thema des 4. Jahrganges
-** Erstellen eines Asciidoc-ORdners
+** Erstellen eines Asciidoc-Ordners
 
 == 2021-10-04
 
@@ -58,14 +58,17 @@ image:microservices-vs-monolith.png[]
 == 2021-10-08
 
 * Weiter mit microprofile-tutorial
-* "Develop the Number microservice"
+* "Develop the number microservice"
 
 * https://stackoverflow.com/a/32443004[LocalDateTime vs Instant, window="_blank"]
 
 * BookEndpoint wurde erstellt; die openAPI-Annottionen wurden noch nicht eingetragen
 
-
-
+* Übung:
+** Erweitern Sie Ihr Mikroprojekt mit Panache-Repositories
+** Verwenden Sie zur Persistierung eine gedockerte Postgres-DB (starten sie mit docker-compose)
+** Erstellen Sie für die gesamte Applikation (mittels application.properties) sowie für eine Stammdaten-Klasse eine ausführliche openAPI-Dokumentation
+** Taggen Sie die abgegebene Übung mit "ue2-openapi"
 
 
 ////
