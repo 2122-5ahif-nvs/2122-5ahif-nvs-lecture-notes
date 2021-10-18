@@ -83,22 +83,12 @@ microprofile - create books
 
 
 
-== 2021-10-18 (Einschub)
 
-image::jsonb-formparam.png[]
+== 2021-10-18
 
-image::hash.png[]
+=== MP Fault Tolerance
 
-image::mapping.png[]
-
-image::cors.png[]
-
-=== Rest-Endpoints erstellt
-
-* FormParam
-* POST mit Location-Rückgabe
-
-=== Mit JPA begonnen
+* https://download.eclipse.org/microprofile/microprofile-fault-tolerance-2.1/microprofile-fault-tolerance-spec.html[Fault Tolerance Specification, window="_blank"]
 
 ////
 |===
