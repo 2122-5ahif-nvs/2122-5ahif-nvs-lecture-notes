@@ -1,6 +1,6 @@
-= Lecture Notes 5ahif - SYP 21/22
+= Lecture Notes 5ahif - NVS 21/22
 T.Stütz
-1.0.0, 2021-09-23: Lecture Notes for SYP
+1.0.0, 2021-09-23: Lecture Notes for NVS
 ifndef::imagesdir[:imagesdir: images]
 //:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
 :sourcedir: ../src/main/java
@@ -70,6 +70,35 @@ image:microservices-vs-monolith.png[]
 ** Erstellen Sie für die gesamte Applikation (mittels application.properties) sowie für eine Stammdaten-Klasse eine ausführliche openAPI-Dokumentation
 ** Taggen Sie die abgegebene Übung mit "ue2-openapi"
 
+
+== 2021-10-11
+
+microprofile - create books
+
+== 2021-10-15
+
+* communication between microservices
+* failure tolerance
+* https://rieckpil.de/maven-setup-for-testing-java-applications/[Maven Lifecycle, window="_blank"]
+
+
+
+== 2021-10-18 (Einschub)
+
+image::jsonb-formparam.png[]
+
+image::hash.png[]
+
+image::mapping.png[]
+
+image::cors.png[]
+
+=== Rest-Endpoints erstellt
+
+* FormParam
+* POST mit Location-Rückgabe
+
+=== Mit JPA begonnen
 
 ////
 |===
