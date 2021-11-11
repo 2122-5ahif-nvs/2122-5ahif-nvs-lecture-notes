@@ -90,6 +90,45 @@ microprofile - create books
 
 * https://download.eclipse.org/microprofile/microprofile-fault-tolerance-2.1/microprofile-fault-tolerance-spec.html[Fault Tolerance Specification, window="_blank"]
 
+
+== 2021-11-08
+
+image::02-definition-kanonisch.png[]
+
+image::02-architecture-canonical-appl.jpg[]
+
+
+=== Authentifizierung und Autorisierung
+
+* Wir verwenden hierzu keycloak
+
+* Woher "bekommen" wir keycloak
+. entweder als docker image
+. oder aus DevServices
+
+
+==== Übung
+
+* Stellen Sie das OIDC-Demo-Projekt fertig
+** Verwenden Sie
+*** einen keycloak-devservice
+*** sowie einen eigenen keycloak docker-container
+** Dokumentieren Sie die Konfiguration auf gh-pages
+** Erstellen Sie 3 Endpoints
+*** Auf den ersten Endpoint darf nur die Rolle `admin` zugreifen
+*** Auf den zweiten Endpoint dürfen nur die Rollen `user` und `admin` zugreifen
+*** Der dritte Endpoint ist öffentlich zugänglich
+
+Termin: Dienstag, 16.11.2021, 23:59
+
+
+
+
+
+
+
+
+
 ////
 |===
 |Thema |Gliederung
