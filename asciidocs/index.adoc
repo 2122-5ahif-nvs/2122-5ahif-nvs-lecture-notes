@@ -122,7 +122,11 @@ image::02-architecture-canonical-appl.jpg[]
 Termin: Dienstag, 16.11.2021, 23:59
 
 
+Test: 3.Dezember
 
+== 2021-11-12
+
+https://quarkus.io/guides/security-openid-connect
 
 
 
