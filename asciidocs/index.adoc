@@ -129,9 +129,45 @@ Test: 3.Dezember
 https://quarkus.io/guides/security-openid-connect
 
 
+== 2021-11-15
+
+* Verschiedene Security Verfahren in Quarkus
+* Variablen in requests.http
 
 
+== 2021-11-22
 
+=== Websockets und SSE
+
+* http://edufs.edu.htl-leonding.ac.at/~t.stuetz/download/nvs/presentations.2021/09.WebSockets.Vortrag.pptx[Vortrag pptx]
+
+* Lernpaket: https://quarkus.io/guides/websockets[Quarkus - Using WebSockets]
+* Lernpaket: https://quarkus.io/guides/reactive-event-bus[Quarkus - Using the event bus]
+* Lernpaket: Erstellen eines WebSockets im Miniprojekt
+
+* Referat "Reactive" / Eichhorn / 6. Dez. 2021
+
+== 2021-11-26
+
+* Durchführung der Arbeitspakete
+
+== 2021-11-29
+
+* Feedback zu Arbeitspaketen
+** es reicht nicht, nur die Aufgaben zu erstellen
+** Die Durchführung ist als AsciiDoc zu exzerpieren
+*** Grundsätzliche Einsatzgebiete - Warum?
+*** Grundsätzliche Funktionsweise - Wie? (im Großen)
+*** Kurze Anleitung - Wie? (im Kleinen / Cheatsheet)
+
+=== Arbeitspaket KeyCloak und Testcontainer
+
+* https://www.youtube.com/watch?v=FEbIW23RoXk&t=554s
+
+=== Links
+
+* https://gist.github.com/htl-leonding/a0ef94e907bea81c5415b9796d5d01c2[Gist]
+* http://edufs.edu.htl-leonding.ac.at/~t.stuetz/download/nvs/scripts/
 
 ////
 |===
