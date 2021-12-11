@@ -231,7 +231,7 @@ https://quarkus.io/guides/security-openid-connect
 |9
 |Testcontainers (DevServices)
 |Sljivic
-|
+|14.01.2022
 
 |10
 |Quarkus in Kotlin geschrieben (JPA with Panache for Kotlin)
@@ -255,8 +255,8 @@ https://quarkus.io/guides/security-openid-connect
 
 |14
 |RESTEasy Reactive Qute
-|1 Person
-|
+|Spasenovic
+|24.01.2022
 
 |15
 |Kubernetes
