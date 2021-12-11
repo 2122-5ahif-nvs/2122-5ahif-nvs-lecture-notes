@@ -220,8 +220,8 @@ https://quarkus.io/guides/security-openid-connect
 
 |7
 |Websocket (Client & Server)
-|1 Person
-|
+|Spisak
+|14.01.2022
 
 |8
 |Flyway (Versionierung von Datenbanken) - 1er Thema
@@ -246,7 +246,7 @@ https://quarkus.io/guides/security-openid-connect
 |12
 |MQTT
 |Rieser
-|
+|21.01.2022
 
 |13
 |gRPC
