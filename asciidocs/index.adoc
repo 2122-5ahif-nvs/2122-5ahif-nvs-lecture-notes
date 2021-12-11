@@ -241,7 +241,7 @@ https://quarkus.io/guides/security-openid-connect
 |11
 |Kafka
 |Bojer & Birklbauer
-|
+|10.01.2022
 
 |12
 |MQTT
