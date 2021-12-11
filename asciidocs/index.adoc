@@ -216,7 +216,7 @@ https://quarkus.io/guides/security-openid-connect
 |6
 |Servlet, Servlet-Filter
 |Besic
-|
+|11.02.2022
 
 |7
 |Websocket (Client & Server)
