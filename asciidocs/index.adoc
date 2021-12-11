@@ -251,7 +251,7 @@ https://quarkus.io/guides/security-openid-connect
 |13
 |gRPC
 |Andricic
-|21.02.2022
+|21.01.2022
 
 |14
 |RESTEasy Reactive Qute
