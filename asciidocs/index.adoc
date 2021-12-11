@@ -169,6 +169,121 @@ https://quarkus.io/guides/security-openid-connect
 * https://gist.github.com/htl-leonding/a0ef94e907bea81c5415b9796d5d01c2[Gist]
 * http://edufs.edu.htl-leonding.ac.at/~t.stuetz/download/nvs/scripts/
 
+== 2021-12-10
+
+* Projekt test-demo
+
+== assertj
+
+* assertj-core
+** um Java-Objekte im Hauptspeicher zu überprüfen
+* assertj-db
+** um Werte in Datenbanktabellen zu überprüfen und auszugeben
+
+
+=== Referatsthemen
+
+.Danke an Emina zur Koordination der Termine
+|===
+|# |Thema |Wer |Termin
+
+|1
+|MongoDB (NoSQL) with Panache (Cluster)
+|Polleichtner
+|
+
+|2
+|Hibernate ORM with Panache
+|Kronreif
+|
+
+|3
+|Reactive-Präsentationen
+|Eichhorn & Wallinger
+|6.12.2021
+
+|4
+|Qute
+|Ignjatovic
+|
+
+|5
+|GraphQL, GraphQL-Client
+|Hain & Kaufmann
+|
+
+|6
+|Servlet, Servlet-Filter
+|Besic
+|
+
+|7
+|Websocket (Client & Server)
+|1 Person
+|
+
+|8
+|Flyway (Versionierung von Datenbanken) - 1er Thema
+|Tischler
+|
+
+|9
+|Testcontainers (DevServices)
+|Sljivic
+|
+
+|10
+|Quarkus in Kotlin geschrieben (JPA with Panache for Kotlin)
+|Ecker
+|
+
+|11
+|Kafka
+|Bojer & Birklbauer
+|
+
+|12
+|MQTT
+|Rieser
+|
+
+|13
+|gRPC
+|Andricic
+|
+
+|14
+|RESTEasy Reactive Qute
+|1 Person
+|
+
+|15
+|Kubernetes
+|Bal
+|
+
+|16
+|Container Image [Docker/Jib]
+|1 Person
+|
+
+|17
+|Security JPA
+|Özdogan
+|
+
+|18 - max. 3er
+|Quartz, Picocli
+|Gahleitner
+|
+|===
+
+
+
+
+
+
+
 ////
 |===
 |Thema |Gliederung
