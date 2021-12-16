@@ -224,9 +224,9 @@ https://quarkus.io/guides/security-openid-connect
 |14.01.2022
 
 |8
-|Flyway (Versionierung von Datenbanken) - 1er Thema
-|Tischler
-|
+|Flyway (Versionierung von Datenbanken)
+|Tischler, Trinkl
+|31.01.2022
 
 |9
 |Testcontainers (DevServices)
