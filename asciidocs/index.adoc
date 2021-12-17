@@ -211,7 +211,7 @@ https://quarkus.io/guides/security-openid-connect
 |5
 |GraphQL, GraphQL-Client
 |Hain & Kaufmann
-|
+|04.02.2022
 
 |6
 |Servlet, Servlet-Filter
