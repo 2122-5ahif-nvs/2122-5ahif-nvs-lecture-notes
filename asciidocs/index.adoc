@@ -276,7 +276,7 @@ https://quarkus.io/guides/security-openid-connect
 |18 - max. 3er
 |Quartz, Picocli
 |Gahleitner
-|
+|04.02.2022
 |===
 
 
