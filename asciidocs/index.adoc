@@ -181,7 +181,7 @@ https://quarkus.io/guides/security-openid-connect
 * assertj-db
 ** um Werte in Datenbanktabellen zu überprüfen und auszugeben
 
-=== Referatsthemen
+== Referatsthemen
 
 .Danke an Emina zur Koordination der Termine
 |===
