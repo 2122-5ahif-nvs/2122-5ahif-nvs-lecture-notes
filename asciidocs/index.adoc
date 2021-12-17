@@ -260,8 +260,8 @@ https://quarkus.io/guides/security-openid-connect
 
 |15
 |Kubernetes
-|Bal
-|
+|Bal, Hosic
+|17.01.2022
 
 |16
 |Container Image [Docker/Jib]
