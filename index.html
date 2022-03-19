@@ -439,6 +439,221 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+pre.rouge table td { padding: 5px; }
+pre.rouge table pre { margin: 0; }
+pre.rouge .cm {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .cp {
+  color: #999999;
+  font-weight: bold;
+}
+pre.rouge .c1 {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+pre.rouge .c, pre.rouge .ch, pre.rouge .cd, pre.rouge .cpf {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+pre.rouge .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+pre.rouge .ge {
+  color: #000000;
+  font-style: italic;
+}
+pre.rouge .gr {
+  color: #aa0000;
+}
+pre.rouge .gh {
+  color: #999999;
+}
+pre.rouge .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+pre.rouge .go {
+  color: #888888;
+}
+pre.rouge .gp {
+  color: #555555;
+}
+pre.rouge .gs {
+  font-weight: bold;
+}
+pre.rouge .gu {
+  color: #aaaaaa;
+}
+pre.rouge .gt {
+  color: #aa0000;
+}
+pre.rouge .kc {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kd {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kn {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kp {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kr {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kt {
+  color: #445588;
+  font-weight: bold;
+}
+pre.rouge .k, pre.rouge .kv {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .mf {
+  color: #009999;
+}
+pre.rouge .mh {
+  color: #009999;
+}
+pre.rouge .il {
+  color: #009999;
+}
+pre.rouge .mi {
+  color: #009999;
+}
+pre.rouge .mo {
+  color: #009999;
+}
+pre.rouge .m, pre.rouge .mb, pre.rouge .mx {
+  color: #009999;
+}
+pre.rouge .sa {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .sb {
+  color: #d14;
+}
+pre.rouge .sc {
+  color: #d14;
+}
+pre.rouge .sd {
+  color: #d14;
+}
+pre.rouge .s2 {
+  color: #d14;
+}
+pre.rouge .se {
+  color: #d14;
+}
+pre.rouge .sh {
+  color: #d14;
+}
+pre.rouge .si {
+  color: #d14;
+}
+pre.rouge .sx {
+  color: #d14;
+}
+pre.rouge .sr {
+  color: #009926;
+}
+pre.rouge .s1 {
+  color: #d14;
+}
+pre.rouge .ss {
+  color: #990073;
+}
+pre.rouge .s, pre.rouge .dl {
+  color: #d14;
+}
+pre.rouge .na {
+  color: #008080;
+}
+pre.rouge .bp {
+  color: #999999;
+}
+pre.rouge .nb {
+  color: #0086B3;
+}
+pre.rouge .nc {
+  color: #445588;
+  font-weight: bold;
+}
+pre.rouge .no {
+  color: #008080;
+}
+pre.rouge .nd {
+  color: #3c5d5d;
+  font-weight: bold;
+}
+pre.rouge .ni {
+  color: #800080;
+}
+pre.rouge .ne {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nf, pre.rouge .fm {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nl {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nn {
+  color: #555555;
+}
+pre.rouge .nt {
+  color: #000080;
+}
+pre.rouge .vc {
+  color: #008080;
+}
+pre.rouge .vg {
+  color: #008080;
+}
+pre.rouge .vi {
+  color: #008080;
+}
+pre.rouge .nv, pre.rouge .vm {
+  color: #008080;
+}
+pre.rouge .ow {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .o {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .w {
+  color: #bbbbbb;
+}
+pre.rouge {
+  background-color: #f8f8f8;
+}
+</style>
+<style>
 pre.rouge .hll {
   background-color: #ffc;
 }
@@ -499,6 +714,11 @@ pre.rouge .hll * {
 <li><a href="#_2021_12_10">14. 2021-12-10</a></li>
 <li><a href="#_assertj">15. assertj</a></li>
 <li><a href="#_referatsthemen">16. Referatsthemen</a></li>
+<li><a href="#_2022_03_18">17. 2022-03-18</a>
+<ul class="sectlevel2">
+<li><a href="#_native_build_for_docker">17.1. Native Build for Docker</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -1048,11 +1268,41 @@ pre.rouge .hll * {
 </table>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_2022_03_18"><a class="anchor" href="#_2022_03_18"></a>17. 2022-03-18</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_native_build_for_docker"><a class="anchor" href="#_native_build_for_docker"></a>17.1. Native Build for Docker</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Wir verwenden Java 17 und daher wird ein spezielles Image für Java17 spezifiziert:</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="title">Source: <a href="https://developers.redhat.com/articles/2021/12/14/explore-java-17-language-features-quarkus#generate_container_images_using_jib" target="_blank" rel="noopener">Explore Java 17 language features with Quarkus</a></div>
+<div class="content">
+<pre class="rouge highlight"><code data-lang="bash">./mvnw package <span class="nt">-Pnative</span> <span class="se">\</span>
+<span class="nt">-Dquarkus</span>.native.container-build<span class="o">=</span><span class="nb">true</span> <span class="se">\</span>
+<span class="nt">-Dquarkus</span>.native.builder-image<span class="o">=</span>quay.io/quarkus/ubi-quarkus-native-image:21.3-java17</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">result - Das Linux binary hat eine Größe von 68MB</div>
+<div class="content">
+<pre>ls -lh ./target/backend-1.0.0-SNAPSHOT-runner
+-rwxr-xr-x  1 stuetz  staff    68M Mar 19 09:28 ./target/backend-1.0.0-SNAPSHOT-runner</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
 Version 1.0.0<br>
-Last updated 2022-03-19 08:41:30 UTC
+Last updated 2022-03-19 08:43:24 UTC
 </div>
 </div>
 </body>
