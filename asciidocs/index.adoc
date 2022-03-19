@@ -190,7 +190,7 @@ https://quarkus.io/guides/security-openid-connect
 |1
 |MongoDB (NoSQL) with Panache (Cluster)
 |Polleichtner
-|28.01.2022
+|12.01.2022
 
 |2
 |Hibernate ORM with Panache
@@ -235,7 +235,7 @@ https://quarkus.io/guides/security-openid-connect
 |10
 |Quarkus in Kotlin geschrieben (JPA with Panache for Kotlin)
 |Ecker
-|28.01.2022
+|12.01.2022
 
 |11
 |Kafka
