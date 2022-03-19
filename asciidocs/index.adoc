@@ -181,8 +181,7 @@ https://quarkus.io/guides/security-openid-connect
 * assertj-db
 ** um Werte in Datenbanktabellen zu überprüfen und auszugeben
 
-
-=== Referatsthemen
+== Referatsthemen
 
 .Danke an Emina zur Koordination der Termine
 |===
@@ -191,7 +190,7 @@ https://quarkus.io/guides/security-openid-connect
 |1
 |MongoDB (NoSQL) with Panache (Cluster)
 |Polleichtner
-|
+|12.01.2022
 
 |2
 |Hibernate ORM with Panache
@@ -211,57 +210,57 @@ https://quarkus.io/guides/security-openid-connect
 |5
 |GraphQL, GraphQL-Client
 |Hain & Kaufmann
-|
+|04.02.2022
 
 |6
 |Servlet, Servlet-Filter
 |Besic
-|
+|07.02.2022
 
 |7
 |Websocket (Client & Server)
-|1 Person
-|
+|Spisak
+|14.01.2022
 
 |8
-|Flyway (Versionierung von Datenbanken) - 1er Thema
-|Tischler
-|
+|Flyway (Versionierung von Datenbanken)
+|Tischler, Trinkl
+|31.01.2022
 
 |9
 |Testcontainers (DevServices)
 |Sljivic
-|
+|14.01.2022
 
 |10
 |Quarkus in Kotlin geschrieben (JPA with Panache for Kotlin)
 |Ecker
-|
+|12.01.2022
 
 |11
 |Kafka
 |Bojer & Birklbauer
-|
+|10.01.2022
 
 |12
 |MQTT
 |Rieser
-|
+|21.01.2022
 
 |13
 |gRPC
 |Andricic
-|
+|21.01.2022
 
 |14
 |RESTEasy Reactive Qute
-|1 Person
-|
+|Spasenovic
+|24.01.2022
 
 |15
 |Kubernetes
-|Bal
-|
+|Bal, Hosic
+|17.01.2022
 
 |16
 |Container Image [Docker/Jib]
@@ -276,7 +275,7 @@ https://quarkus.io/guides/security-openid-connect
 |18 - max. 3er
 |Quartz, Picocli
 |Gahleitner
-|
+|04.02.2022
 |===
 
 
@@ -301,6 +300,7 @@ https://quarkus.io/guides/security-openid-connect
 ls -lh ./target/backend-1.0.0-SNAPSHOT-runner
 -rwxr-xr-x  1 stuetz  staff    68M Mar 19 09:28 ./target/backend-1.0.0-SNAPSHOT-runner
 ----
+
 
 
 
