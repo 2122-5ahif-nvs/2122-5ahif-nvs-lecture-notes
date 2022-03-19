@@ -281,6 +281,37 @@ https://quarkus.io/guides/security-openid-connect
 
 
 
+== 2022-03-19
+
+=== Native Build for Docker
+
+* Wir verwenden Java 17 und daher wird ein spezielles Image für Java17 spezifiziert:
+
+
+.Source: https://developers.redhat.com/articles/2021/12/14/explore-java-17-language-features-quarkus#generate_container_images_using_jib[Explore Java 17 language features with Quarkus^]
+[source,bash]
+----
+./mvnw package -Pnative \
+-Dquarkus.native.container-build=true \
+-Dquarkus.native.builder-image=quay.io/quarkus/ubi-quarkus-native-image:21.3-java17
+----
+
+.result - Das Linux binary hat eine Größe von 68MB
+----
+ls -lh ./target/backend-1.0.0-SNAPSHOT-runner
+-rwxr-xr-x  1 stuetz  staff    68M Mar 19 09:28 ./target/backend-1.0.0-SNAPSHOT-runner
+----
+
+
+
+
+
+
+
+
+
+
+
 
 
 
